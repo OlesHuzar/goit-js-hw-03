@@ -3,7 +3,7 @@
 
 function filterArray(numbers, value) {
     let number = [];
-    for (let i = 0; i <= numbers.length; i++) {
+    for (let i = value; i <= numbers.length; i++) {
         if (numbers.includes(i), i > value) {
             number.push(i);
         }
